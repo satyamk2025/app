@@ -1,1 +1,22 @@
 Added a new file to commit
+
+To install Node.js, follow these steps:
+Download the Installer:
+Open your web browser and navigate to the official Node.js website: nodejs.org.
+On the homepage, you will typically find two main download options: LTS (Long Term Support) and Current. The LTS version is recommended for most users due to its stability.
+Click on the appropriate Windows Installer (MSI) for your system's architecture (32-bit or 64-bit).
+Run the Installer:
+Locate the downloaded .msi file and double-click it to launch the Node.js Setup Wizard.
+Click "Next" on the welcome screen.
+Accept the license agreement and click "Next".
+Choose the installation directory or accept the default location, then click "Next".
+Select the components to install (usually, the default selections are sufficient), and click "Next".
+You may be prompted to install additional tools like Chocolatey. You can choose to install these or not, depending on your needs. Click "Next".
+Click "Install" to begin the installation process. You may need to grant administrative permissions.
+Complete the Installation:
+Once the installation is finished, click "Finish" to exit the setup wizard.
+Verify the Installation:
+Open your Command Prompt or PowerShell.
+Type node -v and press Enter. This should display the installed Node.js version.
+Type npm -v and press Enter. This should display the installed npm (Node Package Manager) version, which is typically bundled with Node.js.
+If the versions are displayed correctly, Node.js and npm have been successfully installed on your system. You might need to restart your terminal or even your computer for the changes to take effect in the system's PATH variable.
